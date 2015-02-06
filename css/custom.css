@@ -1,0 +1,93 @@
+/* =Menu Controls
+-------------------------*/
+.cbp-spmenu {
+	/* background: #47a3da; */
+	background: #B7B7B7;
+	position: fixed;
+}
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+.cbp-spmenu-push-toleft {
+	left: -25%;
+}
+.cbp-spmenu-right {
+	right: -25%;
+}
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* =Transitions
+-------------------------*/
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+/* =Menu Button
+--------------------------*/
+.menuButton {
+	border: none;
+	background: #333333;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	width: 25%;
+	cursor: pointer;
+	margin: 0;
+	margin-top: 57px;
+	font-size: 20px;
+	float: right;
+}
+
+.menuButton a {
+	color: #FFFFFF;
+}
+.menuButton:hover {
+	background: #777777;
+}
+
+.menuButton.active {
+	background: #333333;
+}
+
+.menuButton.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+.menuButton h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	font-weight: 0;
+}
+
+
+
+/* =Header
+--------------------------*/
+#row1 {
+	margin-top: 40px;
+	background: #F1F1F1;
+
+}
+
+#brandlogo {
+	height: 175px;
+	background: url('../images/brandlogo.png') no-repeat left top;
+}
+
+#mainContent {
+	margin-top: 40px;
+	padding: 60px;
+	text-align: center;
+	background-color: #999999;
+}

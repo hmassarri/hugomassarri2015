@@ -1,0 +1,101 @@
+/* =Nav (Right Menu)
+/*--------------------*/
+.cbp-spmenu-vertical {
+	width: 25%;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #A1A1A1;
+	padding: 20px;
+}
+
+.cbp-spmenu h3 {
+	color: #FFFFFF;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #777777;
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: #C7C7C7;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+
+/* =Nav
+-------------------------*/
+nav > button {
+	border: none;
+	background: #333333;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	margin: 0;
+	font-size: 13px;
+}
+
+nav > button:hover {
+	background: #777777;
+}
+
+nav > button.active {
+	background: #333333;
+}
+
+nav > button.disabled {
+	background: #555555;
+	pointer-events: none;
+}
+
+nav > h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	font-weight: 0;
+}
+
+
+.closeButton {
+	border: none;
+	background: #CD1234;
+	color: #fff;
+	padding: 14px;
+	padding-top: 16px;
+	display: block;
+	width: 50px;
+	cursor: pointer;
+	margin: 0;
+	margin-right: 10px;
+	font-size: 20px;
+	float: right;
+}
+
+.closeButton a {
+	color: #FFFFFF;
+}
+
+.closeButton:hover {
+	background: #FF1943;
+}
+
+.closeButton.active {
+	background: #FF1943;
+}
