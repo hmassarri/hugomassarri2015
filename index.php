@@ -8,7 +8,7 @@
 			<div class="row">
 
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
-					<div id="menuCloseButton" class="col-md-2 pull-right closeButton"><p class="text-right">Close</p></div>
+					<div id="menuCloseButton" class="col-md-3 pull-right closeButton"><p class="text-right">Close</p></div>
 					<h3>Menu</h3>
 					<a href="#">Link 1</a>
 					<a href="#">Link 2</a>
