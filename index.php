@@ -31,8 +31,7 @@
 
 		<div id="mainBody" class="container">
 
-			<div id="row1" class="row">
-
+			<div id="rowFix" class="row">
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
@@ -43,14 +42,14 @@
 						</button>
 					</p>
 				</div>
-
 			</div>
 
-			<div id="row1" class="row">
+
+			<div id="rowFix" class="row">
 				<div id="mainContent" class="col-md-12">
 
 
-					<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="margin-top: 0px;">
+					<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
 						<!-- Carousel indicators -->
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -60,7 +59,7 @@
 					    </ol>
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
-					        <div class="active item">
+					        <div class="item active">
 					            <img src="images/slide1.png" />
 					            <div class="carousel-caption img-responsive">
 					              <h3>Red</h3>
@@ -94,7 +93,17 @@
 
 				</div>
 			</div>
-		</div>
+
+
+			<div id="rowFix" class="row">
+				<div class="col-md-12 email">
+					<a href="mailto:hugo@hugomassarri.com">hugo@hugomassarri.com</a><br />
+					<p class="text-muted">Copyright &copy; 2010-<?php echo date('Y'); ?> </p>
+				</div>
+			</div>
+
+
+		</div> <!-- END CONTAINER -->
 		<?php include 'pushit.php'; ?>
 	</body>
 </html>

@@ -100,7 +100,7 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left">Design, Brand, & Development</h3>
+					<h3 class="text-left text-muted">Design, Brand, & Development</h3>
 					<p>While working at Juma, I attended the WRAP 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
 					<p>&nbsp</p>
 					<p class="text-muted"><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>

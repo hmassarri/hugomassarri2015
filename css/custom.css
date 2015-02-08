@@ -2,8 +2,8 @@
 --------------------------*/
 .menuButton {
 	border: none;
-	background: #333333;
-	color: #FFFFFF;
+	background: #F0F0F0;
+	color: #777777;
 	padding: 15px;
 	display: block;
 	width: 100%;
@@ -15,18 +15,21 @@
 }
 
 .menuButton a {
+	color: #777777;
+}
+.menuButton:hover a, .menuButton:focus a{
 	color: #FFFFFF;
 }
-.menuButton:hover {
-	background: #777777;
+.menuButton:hover, .menuButton:focus {
+	background: #000000;
 }
 
 .menuButton.active {
 	background: #333333;
 }
 
-.menuButton.disabled {
-	background: #aaa;
+.menuButton.disabled, .menuButton.disabled a {
+	background: #F0F0F0;
 	pointer-events: none;
 }
 
@@ -43,8 +46,8 @@
 --------------------------*/
 .projectButton {
 	border: none;
-	background: #555555;
-	color: #EEEEEE;
+	background: #F0F0F0;
+	color: #777777;
 	padding: 15px;
 	display: block;
 	width: 100%;
@@ -57,11 +60,10 @@
 }
 
 .projectButton a {
-	color: #CCCCCC;
+	color: #777777;
 }
 .projectButton:hover a, .projectButton:focus a{
 	color: #FFFFFF;
-	background-color: #000000;
 }
 .projectButton:hover, .projectButton:focus {
 	background-color: #000000;
@@ -70,33 +72,27 @@
 
 /* =Header
 --------------------------*/
-#row1 {
-	margin: 0px 0px 60px 0px;
+#rowFix {
+	margin: 0px 0px 40px 0px;
 	background: #FEFEFE;
 }
-
 #brandlogo {
 	margin-top: 47px;
 	/* background: url('../images/brandlogo.png') no-repeat left top; */
 }
-
 #menuButtonContainer {
 	margin-top: 47px;
 	padding-top: 12px;
 }
-
-
+#mainContent {
+	padding: 15px;
+	text-align: center;
+	background-color: #;
+}
 #projectRow {
 	margin-top: 40px;
 	background: #FFFFFF;
 }
-
-#mainContent {
-	padding: 15px;
-	text-align: center;
-	background-color: #F5F5F5;
-}
-
 #projectDesc {
 	padding: 0px 25px 0px 25px;
 	background-color: ;
@@ -133,4 +129,15 @@
   -webkit-transition: opacity ease-in-out .7s;
   transition: opacity ease-in-out .7s;
   z-index:2;
+}
+
+
+
+.email a {
+	color: #777777;
+	font-size: 15px;
+}
+.email a:hover, .email a:focus {
+	color: #000000;
+	text-decoration: underline;
 }
