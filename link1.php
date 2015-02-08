@@ -26,7 +26,7 @@
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
-				<div class="col-md-6 pull-right">
+				<div id="menuButtonContainer" class="col-md-6 pull-right">
 					<p class="text-right">
 						<button type="button" id="showSidebar" class="menuButton">
 							<a href="#">Menu</a>
@@ -121,6 +121,6 @@
 
 
 		</div>
-		<?php include 'pushy.php'; ?>
+		<?php include 'pushit.php'; ?>
 	</body>
 </html>

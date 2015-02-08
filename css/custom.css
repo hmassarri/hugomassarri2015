@@ -7,10 +7,9 @@
 	padding: 15px;
 	display: block;
 	width: 100%;
-	max-width: 150px;
+	max-width: 75px;
 	cursor: pointer;
 	margin: 0;
-	margin-top: 57px;
 	font-size: 20px;
 	float: right;
 }
@@ -60,14 +59,18 @@
 /* =Header
 --------------------------*/
 #row1 {
-	margin-top: 0px;
+	margin: 0px 0px 60px 0px;
 	background: #FEFEFE;
-
 }
 
 #brandlogo {
-	height: 175px;
+	margin-top: 47px;
 	/* background: url('../images/brandlogo.png') no-repeat left top; */
+}
+
+#menuButtonContainer {
+	margin-top: 47px;
+	padding-top: 12px;
 }
 
 
@@ -79,7 +82,7 @@
 #mainContent {
 	padding: 15px;
 	text-align: center;
-	background-color: #C1C1C1;
+	background-color: #F5F5F5;
 }
 
 #projectDesc {

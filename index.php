@@ -31,7 +31,7 @@
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
-				<div class="col-md-6 pull-right">
+				<div id="menuButtonContainer" class="col-md-6 pull-right">
 					<p class="text-right">
 						<button type="button" id="showSidebar" class="menuButton">
 							<a href="#">Menu</a>
@@ -53,52 +53,43 @@
 					        <li data-target="#myCarousel" data-slide-to="2"></li>
 					        <li data-target="#myCarousel" data-slide-to="3"></li>
 					    </ol>
-
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
 					            <img src="images/slide1.png" />
 					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
+					              <h3>Red</h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
 					            <img src="images/slide2.png" />
 					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
+					              <h3>Blue</h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
 					            <img src="images/slide3.png" />
 					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
+					              <h3>Yellow</h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
 					            <img src="images/slide4.png" />
 					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/placeholder1.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
+					              <h3>Green</h3>
 					              <p></p>
 					            </div>
 					        </div>
 					    </div>
-
 					</div>
 
 
 				</div>
 			</div>
 		</div>
-		<?php include 'pushy.php'; ?>
+		<?php include 'pushit.php'; ?>
 	</body>
 </html>
