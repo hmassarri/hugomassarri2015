@@ -8,10 +8,15 @@
 		<meta name="description" content="Blueprint: Slide and Push Menus" />
 		<meta name="keywords" content="sliding menu, pushing menu, navigation, responsive, menu, css, jquery" />
 		<meta name="author" content="Codrops" />
+
 		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/custom.css" />
-		<link rel="stylesheet" type="text/css" href="css/menu.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/new_custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/new_menu.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+
+		<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+		<script src="lib/bootstrap.js"></script>
 		<script src="lib/modernizr.custom.js"></script>
 	</head>

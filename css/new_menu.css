@@ -1,0 +1,66 @@
+/* =Nav (Right Menu)
+/*--------------------*/
+.sidebar {
+	width: 320px;
+	height: 100%;
+	top: 0;
+	background: #F1F1F1;
+	position: fixed;
+	z-index: 1000;
+}
+
+.sidebar a {
+	border-bottom: 1px solid #B4B4B4;
+	padding: 20px;
+	display: block;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.sidebar a:hover, .sidebar a:focus {
+	color: #FFFFFF;
+	background: #000000;
+}
+
+.sidebar a:active {
+	background: #666666;
+	color: #333333;
+}
+
+.sidebar h3 {
+	color: #FFFFFF;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #555555;
+}
+
+
+/* =Menu Controls
+-------------------------*/
+.sidebar-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+.sidebar-push-toleft {
+	left: -320px;
+}
+.sidebar-right {
+	right: -320px;
+}
+.sidebar-right.sidebar-open {
+	right: 0px;
+}
+
+/* =Transitions
+-------------------------*/
+
+.sidebar,
+.sidebar-push {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}

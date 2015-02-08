@@ -5,8 +5,8 @@
 
 		<div class="container">
 
-			<div class="row">
 
+			<div class="row">
 				<nav id="sidebar" class="sidebar sidebar-vertical sidebar-right">
 					<div id="menuCloseButton" class="col-md-3 pull-right closeButton">
 						<p class="text-right">Close</p>
@@ -19,15 +19,10 @@
 					<a href="#">Link 5</a>
 					<a href="#">Link 6</a>
 				</nav>
-
 			</div>
 
-		</div>
-
-		<div id="mainBody" class="container">
 
 			<div id="row1" class="row">
-
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
@@ -38,13 +33,22 @@
 						</button>
 					</p>
 				</div>
-
 			</div>
 
-			<div id="row1" class="row">
-				<div id="mainContent" class="col-md-12">
+
+			<div class="row">
+				<div class="col-md-12">
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<h1>Project 1</h1>
+					<h3 class="text-muted">RC Model Air Show</h3>
+					<p>&nbsp;</p>
+				</div>
+			</div>
 
 
+			<div id="projectRow"class="row">
+				<div id="mainContent" class="col-md-8">
 					<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="margin-top: 0px;">
 						<!-- Carousel indicators -->
 					    <ol class="carousel-indicators">
@@ -91,13 +95,31 @@
 					              <p></p>
 					            </div>
 					        </div>
-					    </div>
-
+				    	</div>
 					</div>
+				</div>
 
 
+				<div id="projectDesc" class="col-md-4">
+					<h3 class="text-left">Design, Brand, & Development</h3>
+					<p>While working at Juma, I attended the WRAP 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
+					<p>&nbsp</p>
+					<p class="text-muted"><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
 				</div>
 			</div>
+
+
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-center">
+						<button type="button" id="showSidebar" class="projectButton">
+							<a href="#">Next Project</a>
+						</button>
+					</p>
+				</div>
+			</div>
+
+
 		</div>
 		<?php include 'pushy.php'; ?>
 	</body>

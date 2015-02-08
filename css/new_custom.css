@@ -1,0 +1,121 @@
+/* =Menu Button
+--------------------------*/
+.menuButton {
+	border: none;
+	background: #333333;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	max-width: 150px;
+	cursor: pointer;
+	margin: 0;
+	margin-top: 57px;
+	font-size: 20px;
+	float: right;
+}
+
+.menuButton a {
+	color: #FFFFFF;
+}
+.menuButton:hover {
+	background: #777777;
+}
+
+.menuButton.active {
+	background: #333333;
+}
+
+.menuButton.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+.menuButton h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	font-weight: 0;
+}
+
+
+
+/* =Project Button
+--------------------------*/
+.projectButton {
+	border: none;
+	background: #333333;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	max-width: 150px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 75px;
+	font-size: 20px;
+}
+
+
+/* =Header
+--------------------------*/
+#row1 {
+	margin-top: 0px;
+	background: #FEFEFE;
+
+}
+
+#brandlogo {
+	height: 175px;
+	/* background: url('../images/brandlogo.png') no-repeat left top; */
+}
+
+
+#projectRow {
+	margin-top: 40px;
+	background: #FFFFFF;
+}
+
+#mainContent {
+	padding: 15px;
+	text-align: center;
+	background-color: #C1C1C1;
+}
+
+#projectDesc {
+	padding: 0px 25px 0px 25px;
+	background-color: ;
+	color: #333333;
+}
+
+
+/* =Carousel Fade
+	------------------------*/
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index:2;
+}
