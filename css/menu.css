@@ -64,3 +64,33 @@
 	-moz-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+
+
+
+/* =Menu Close Button
+-------------------------*/
+.closeButton {
+	border: none;
+	background: #CD1234;
+	color: #fff;
+	padding: 20px 20px 10px 20px;
+	display: block;
+	width: 100%;
+	max-width: 40px;
+	cursor: pointer;
+	margin: 0;
+	font-size: 20px;
+	float: right;
+}
+
+.closeButton a {
+	color: #FFFFFF;
+}
+
+.closeButton:hover {
+	background: #FF1943;
+}
+
+.closeButton.active {
+	background: #FF1943;
+}
