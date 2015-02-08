@@ -3,7 +3,7 @@
 .menuButton {
 	border: none;
 	background: #333333;
-	color: #fff;
+	color: #FFFFFF;
 	padding: 15px;
 	display: block;
 	width: 100%;
@@ -43,8 +43,8 @@
 --------------------------*/
 .projectButton {
 	border: none;
-	background: #333333;
-	color: #fff;
+	background: #555555;
+	color: #EEEEEE;
 	padding: 15px;
 	display: block;
 	width: 100%;
@@ -52,7 +52,19 @@
 	cursor: pointer;
 	margin: 0 auto;
 	margin-top: 75px;
+	margin-botton: 50px;
 	font-size: 20px;
+}
+
+.projectButton a {
+	color: #CCCCCC;
+}
+.projectButton:hover a, .projectButton:focus a{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.projectButton:hover, .projectButton:focus {
+	background-color: #000000;
 }
 
 

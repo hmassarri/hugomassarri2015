@@ -26,7 +26,6 @@
 				</nav>
 
 			</div>
-			</div>
 
 
 			<div id="row1" class="row">
@@ -90,13 +89,6 @@
 					        </div>
 					        <div class="item">
 					            <img src="images/slide4.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/placeholder1.png" />
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
