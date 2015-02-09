@@ -53,9 +53,6 @@
 	width: 100%;
 	max-width: 150px;
 	cursor: pointer;
-	margin: 0 auto;
-	margin-top: 75px;
-	margin-botton: 50px;
 	font-size: 20px;
 }
 
@@ -73,8 +70,29 @@
 /* =Header
 --------------------------*/
 #rowFix {
-	margin: 0px 0px 40px 0px;
+	margin: 0px 0px 50px 0px;
 	background: #FEFEFE;
+}
+#projectContainerRow {
+	margin: 0;
+	margin-top: 50px !important;
+	margin-bottom: 50px;
+}
+#projectButtonRow {
+	margin: 0px;
+	margin-top: 100px !important;
+	margin-bottom: 50px;
+}
+#projectDesc {
+	padding: 0px 25px 0px 25px;
+	background-color: ;
+	color: #333333;
+}
+#projectDesc a {
+	color: #777777;
+}
+#projectDesc a:hover, #projectDesc a:focus {
+	color: #000000;
 }
 #brandlogo {
 	margin-top: 47px;
@@ -89,15 +107,6 @@
 	text-align: center;
 	background-color: #;
 }
-#projectRow {
-	margin-top: 40px;
-	background: #FFFFFF;
-}
-#projectDesc {
-	padding: 0px 25px 0px 25px;
-	background-color: ;
-	color: #333333;
-}
 
 
 /* =Carousel Fade
@@ -106,10 +115,10 @@
   opacity: 1;
 }
 .carousel.fade .item {
-  -moz-transition: opacity ease-in-out .7s;
-  -o-transition: opacity ease-in-out .7s;
-  -webkit-transition: opacity ease-in-out .7s;
-  transition: opacity ease-in-out .7s;
+  -moz-transition: opacity ease-in-out 3.5s;
+  -o-transition: opacity ease-in-out 3.5s;
+  -webkit-transition: opacity ease-in-out 3.5s;
+  transition: opacity ease-in-out 3.5s;
   left: 0 !important;
   opacity: 0;
   top:0;
@@ -124,10 +133,10 @@
 }
 .carousel.fade .item.active {
   opacity: 1;
-  -moz-transition: opacity ease-in-out .7s;
-  -o-transition: opacity ease-in-out .7s;
-  -webkit-transition: opacity ease-in-out .7s;
-  transition: opacity ease-in-out .7s;
+  -moz-transition: opacity ease-in-out 3.5s;
+  -o-transition: opacity ease-in-out 3.5s;
+  -webkit-transition: opacity ease-in-out 3.5s;
+  transition: opacity ease-in-out 3.5s;
   z-index:2;
 }
 

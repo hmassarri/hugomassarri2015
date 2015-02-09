@@ -2,11 +2,14 @@
 /*--------------------*/
 .sidebar {
 	width: 320px;
-	height: 100%;
 	top: 0;
-	background: #F1F1F1;
+	bottom: 0;
 	position: fixed;
 	z-index: 1000;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: #F1F1F1;
+
 }
 
 .sidebar a {
@@ -76,7 +79,7 @@
 	padding: 20px 20px 10px 20px;
 	display: block;
 	width: 100%;
-	max-width: 40px;
+	max-width: 100px;
 	cursor: pointer;
 	margin: 0;
 	font-size: 20px;

@@ -6,26 +6,7 @@
 		<div class="container">
 
 
-			<div class="row">
-				<nav id="sidebar" class="sidebar sidebar-vertical sidebar-right">
-					<div id="menuCloseButton" class="col-md-4 pull-right closeButton">
-						<p>X</p>
-					</div>
-
-					<h3>Menu</h3>
-					<a id="index" href="index.php">index.php</a>
-					<a id="link1" href="link1.php">link1.php</a>
-					<a href="#">Link 3</a>
-					<a href="#">Link 4</a>
-					<a href="#">Link 5</a>
-					<a href="#">Link 6</a>
-					<a href="#">Link 7</a>
-					<a href="#">Link 8</a>
-					<a href="#">Link 9</a>
-					<a href="#">Link A</a>
-				</nav>
-
-			</div>
+			<?php include 'menu.php'; ?>
 
 
 			<div id="row1" class="row">
@@ -53,9 +34,9 @@
 			</div>
 
 
-			<div id="projectRow"class="row">
+			<div id="projectContainerRow" class="row">
 				<div id="mainContent" class="col-md-8">
-					<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="margin-top: 0px;">
+					<div id="myCarousel" class="carousel fade" data-interval="7000" data-ride="carousel" style="margin-top: 0px;">
 						<!-- Carousel indicators -->
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -103,23 +84,15 @@
 					<h3 class="text-left text-muted">Design, Brand, & Development</h3>
 					<p>While working at Juma, I attended the WRAP 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
 					<p>&nbsp</p>
-					<p class="text-muted"><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
 				</div>
 			</div>
 
 
-			<div class="row">
-				<div class="col-md-12">
-					<p class="text-center">
-						<button type="button" id="showSidebar" class="projectButton">
-							<a href="#">Next Project</a>
-						</button>
-					</p>
-				</div>
-			</div>
+			<?php include 'projectControls.php'; ?>
 
 
-		</div>
+		</div><!-- END CONTAINER -->
 		<?php include 'pushit.php'; ?>
 	</body>
 </html>
