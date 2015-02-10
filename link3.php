@@ -27,8 +27,8 @@
 				<div class="col-md-12">
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
-					<h1>Project 1</h1>
-					<h3 class="text-muted">RC Model Air Show</h3>
+					<h1>JUMA Creative, LLC</h1>
+					<h3 class="text-muted">Design Studio</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -82,9 +82,9 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design, Brand, & Development</h3>
-					<p class="text-muted">While working at Juma, I attended the WRAP 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
+					<p class="text-muted">I was approached to co-found a design studio in Somerville, NJ.  I decided to pursue and see what would happen.  It turned out that not only did I hone my skills as designer and developer, It was an awesome experience and I look forward to doing it again.  Much respect to the original members of JUMA.  I hope to work with them again in the future.</p>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://www.hugomassarri.com/portfolio/jumacreative/">/portfolio/jumacreative</a></p>
 				</div>
 			</div>
 

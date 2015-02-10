@@ -81,8 +81,8 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left text-muted">Design & Development</h3>
-					<p>A freelance graphic designer that I know needed some help building his online presence.  I was responsible for visual design and development.  This was a good example of what could be achieved using a very simple one page approach.</p>
+					<h3 class="text-left">Design & Development</h3>
+					<p class="text-muted">A freelance graphic designer that I know needed some help building his online presence.  I was responsible for visual design and development.  This was a good example of what could be achieved using a very simple one page approach.</p>
 					<p>&nbsp</p>
 					<p><a href="http://www.hugomassarri.com/portfolio/chadsaharic/">/portfolio/chadsaharic</a></p>
 				</div>
@@ -93,6 +93,6 @@
 
 
 		</div><!-- END CONTAINER -->
-		<?php include 'pushit.php'; ?>
+		<?php include 'controller.php'; ?>
 	</body>
 </html>
