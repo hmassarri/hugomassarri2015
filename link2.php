@@ -9,7 +9,7 @@
 			<?php include 'menu.php'; ?>
 
 
-			<div id="row1" class="row">
+			<div class="row rowFix">
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
@@ -23,9 +23,8 @@
 			</div>
 
 
-			<div class="row">
+			<div class="row rowFix">
 				<div class="col-md-12">
-					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 					<h1>Chad Saharic</h1>
 					<h3 class="text-muted">Freelance Graphic Designer</h3>
@@ -34,7 +33,7 @@
 			</div>
 
 
-			<div id="projectContainerRow" class="row">
+			<div id="projectContainerRow" class="row rowFix">
 				<div id="mainContent" class="col-md-8">
 					<div id="myCarousel" class="carousel fade" data-interval="7000" data-ride="carousel" style="margin-top: 0px;">
 						<!-- Carousel indicators -->

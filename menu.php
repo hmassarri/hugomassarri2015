@@ -7,6 +7,7 @@
 					<a id="index" href="index.php">index.php<i class="icon-home"></i></a>
 					<a id="link1" href="link1.php">link1.php</a>
 					<a id="link2" href="link2.php">link2.php</a>
+					<a id="link2" href="link3.php">link3.php</a>
 					<h3>Projects</h3>
 					<a href="http://iamdn.rutgers.edu/" target="_blank">IAMDN Rutgers</a>
 					<a href="http://chembuilding.rutgers.edu/" target="_blank">Rutgers Chemistry Building</a>

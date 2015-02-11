@@ -11,7 +11,7 @@
 
 		<div id="mainBody" class="container">
 
-			<div id="rowFix" class="row">
+			<div class="row rowFix">
 				<div id="brandlogo" class="col-md-6 pull-left">
 					<img src="images/brandlogo.png" class="img-responsive" />
 				</div>
@@ -25,7 +25,7 @@
 			</div>
 
 
-			<div id="rowFix" class="row">
+			<div class="row rowFix">
 				<div id="mainContent" class="col-md-12">
 
 
@@ -75,7 +75,7 @@
 			</div>
 
 
-			<div id="rowFix" class="row">
+			<div class="row rowFix">
 				<div class="col-md-12 email">
 					<a href="mailto:hugo@hugomassarri.com">hugo@hugomassarri.com</a><br />
 					<p class="text-muted">Copyright &copy; 2010-<?php echo date('Y'); ?> </p>

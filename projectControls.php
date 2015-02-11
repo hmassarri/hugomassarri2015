@@ -1,4 +1,4 @@
-			<div id="projectButtonRow" class="row">
+			<div id="projectButtonRow" class="row rowFix">
 				<div id="prevButtonRow" class="col-md-2">
 					<p class="pull-left">
 						<button type="button" id="prevButton" class="projectButton">
