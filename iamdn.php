@@ -26,8 +26,8 @@
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>Project 1</h1>
-					<h3 class="text-muted">RC Model Air Show</h3>
+					<h1>IAMDN</h1>
+					<h3 class="text-muted">Institute for Advanced Materials, Devices, and Nanotechnology</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -80,10 +80,10 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left">Design, Brand, & Development</h3>
-					<p class="text-muted">While working at Juma, I attended the WRAP 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
+					<h3 class="text-left">Design & Development</h3>
+					<p class="text-muted">I did this design for the team at IAMDN.  I was responsible for the layout, design, and development of this site.  Images were provided by IAMDN.</p>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://iamdn.rutgers.edu" target="blank">/portfolio/iamdn</a></p>
 				</div>
 			</div>
 

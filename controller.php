@@ -25,23 +25,30 @@
 
 		//create array
 	    var caseList = [
-	    'index.php',
-	    'link1.php',
-	    'link2.php',
-	    'link3.php'
+	    'iamdn.php',
+	    'chem.php',
+	    'irw.php',
+	    'chadsaharic.php',
+	    'wram2013.php',
+	    'juma.php',
+	    'showmay.php',
+	    'valentine.php',
+	    'unidentified.php',
+	    'arancibia.php',
+	    'decadence.php'
 		];
 
 		// get current page: just last part - page name and extension
 	    current = $(location).attr('pathname').substr($(location).attr('pathname').lastIndexOf("/") + 1);
 
 		//remove prevButton if at the beginning of project list
-		if (current == 'link1.php')
+		if (current == 'iamdn.php')
 		{
 			$('#prevButtonRow').remove();
 
 		}
 
-		if (current == 'link3.php')
+		if (current == 'decadence.php')
 		{
 			$('#nextButtonRow').remove();
 		}

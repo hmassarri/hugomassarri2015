@@ -4,21 +4,20 @@
 						<p>Close</p>
 					</div>
 					<h3>Menu</h3>
-					<a id="index" href="index.php">index.php<i class="icon-home"></i></a>
-					<a id="link1" href="link1.php">link1.php</a>
-					<a id="link2" href="link2.php">link2.php</a>
-					<a id="link2" href="link3.php">link3.php</a>
-					<h3>Projects</h3>
-					<a href="http://iamdn.rutgers.edu/" target="_blank">IAMDN Rutgers</a>
-					<a href="http://chembuilding.rutgers.edu/" target="_blank">Rutgers Chemistry Building</a>
-					<a href="http://http://irw.rutgers.edu/" target="_blank">Insitute for Research on Women</a>
-					<a href="http://http://www.chadsaharic.com" target="_blank">Chad Saharic</a>
-					<a href="#">Chad Saharic</a>
-					<a href="#">WRAM</a>
-					<a href="#">JUMA Creative</a>
-					<a href="#">Show-May Heimbuch</a>
-					<a href="#">DJ Victor Valentine</a>
-					<a href="#">theUNIDENTIFED</a>
-					<a href="#">Decadence Hair Design</a>
+					<a id="index" href="index.php">Home</a>
+					<h3>Media</h3>
+					<a id="about" href="about.php">Digital Art</a>
+					<h3>Web</h3>
+					<a href="iamdn.php">IAMDN Rutgers</a>
+					<a href="chem.php">Rutgers Chemistry Building</a>
+					<a href="irw.php">Insitute for Research on Women</a>
+					<a href="chadsaharic.php">Chad Saharic</a>
+					<a href="wram2013.php">WRAM</a>
+					<a href="juma.php" target="_blank">JUMA Creative</a>
+					<a href="showmay.php" target="_blank">Show-May Heimbuch</a>
+					<a href="valentine.php">DJ Victor Valentine</a>
+					<a href="unidentified.php">theUNIDENTIFED</a>
+					<a href="arancibia.php" target="_blank">Arianna Arancibia</a>
+					<a href="decadence.php" target="_blank">Decadence Hair Design</a>
 				</nav>
 			</div>
