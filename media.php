@@ -26,8 +26,8 @@
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>the UNIDENTIFIED.</h1>
-					<h3 class="text-muted">Surf / Sci-Fi / Punk </h3>
+					<h1>Media</h1>
+					<h3 class="text-muted">Digital Art</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -46,29 +46,29 @@
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
-					        <div class="active item">
-					            <img src="images/slide1.png" />
+					        <div class="active item lightbox hide fade">
+					            <a class="media" href="images/slide1.png"><img src="images/slide1.png"></a>
+								<div class="carousel-caption img-responsive">
+									<h3></h3>
+								<p></p>
+					            </div>
+					        </div>
+					        <div class="item">
+					            <a class="media" href="images/slide2.png"><img src="images/slide2.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
-					            <img src="images/slide2.png" />
+					            <a class="media" href="images/slide3.png"><img src="images/slide3.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
-					            <img src="images/slide3.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide4.png" />
+					            <a class="media" href="images/slide4.png"><img src="images/slide4.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -80,15 +80,12 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left">Design, Brand, & Development</h3>
-					<h4 class="text-muted"></h4>
+					<h3 class="text-left">Visual Design</h3>
+					<h4 class="text-muted">Mostly a collection of my work from 2000-2015.  PS, IL, and really good stories were responsible for these.</h4>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/digitalart</a></p>
 				</div>
 			</div>
-
-
-			<?php include 'projectControls.php'; ?>
 
 
 		</div><!-- END CONTAINER -->

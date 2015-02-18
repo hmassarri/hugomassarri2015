@@ -25,7 +25,8 @@
 
 		//create array
 	    var caseList = [
-	    'iamdn.php',
+		'convocation.php',
+		'iamdn.php',
 	    'chem.php',
 	    'irw.php',
 	    'chadsaharic.php',
@@ -42,7 +43,7 @@
 	    current = $(location).attr('pathname').substr($(location).attr('pathname').lastIndexOf("/") + 1);
 
 		//remove prevButton if at the beginning of project list
-		if (current == 'iamdn.php')
+		if (current == 'convocation.php')
 		{
 			$('#prevButtonRow').remove();
 
@@ -72,5 +73,24 @@
 				window.location.href = prev;
 			}
 	    });
+	});
+</script>
+<script>
+	$(document).ready( function() {
+		$('.media').magnificPopup ({
+			type: 'image',
+			mainClass: 'mfp-with-zoom',
+
+			zoom: {
+				enabled: true,
+				duration: 300,
+				easing: 'ease-in-out'
+			},
+
+			gallery: {
+				enabled: true
+			}
+
+		});
 	});
 </script>

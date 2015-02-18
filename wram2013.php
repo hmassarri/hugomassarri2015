@@ -81,7 +81,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<p class="text-muted">While working at Juma, I attended the WRAM 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
+					<h4 class="text-muted">While working at Juma, I attended the WRAM 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</h4>
 					<p>&nbsp</p>
 					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
 				</div>

@@ -26,8 +26,8 @@
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>the UNIDENTIFIED.</h1>
-					<h3 class="text-muted">Surf / Sci-Fi / Punk </h3>
+					<h1>SAS Convocation</h1>
+					<h3 class="text-muted">Rutgers, School of Arts and Sciences</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -80,10 +80,10 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left">Design, Brand, & Development</h3>
-					<h4 class="text-muted"></h4>
+					<h3 class="text-left">Design & Development</h3>
+					<h4 class="text-muted">I was responsible for the layout, design, development, and user experience.</h4>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://iamdn.rutgers.edu" target="blank">/portfolio/convocation</a></p>
 				</div>
 			</div>
 

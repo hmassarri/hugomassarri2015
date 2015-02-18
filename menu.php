@@ -6,8 +6,9 @@
 					<h3>Menu</h3>
 					<a id="index" href="index.php">Home</a>
 					<h3>Media</h3>
-					<a id="about" href="about.php">Digital Art</a>
+					<a id="media" href="media.php">Digital Art</a>
 					<h3>Web</h3>
+					<a href="convocation.php">Rutgers SAS Convocation</a>
 					<a href="iamdn.php">IAMDN Rutgers</a>
 					<a href="chem.php">Rutgers Chemistry Building</a>
 					<a href="irw.php">Insitute for Research on Women</a>

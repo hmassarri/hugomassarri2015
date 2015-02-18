@@ -27,7 +27,7 @@
 				<div class="col-md-12">
 					<p>&nbsp;</p>
 					<h1>IAMDN</h1>
-					<h3 class="text-muted">Institute for Advanced Materials, Devices, and Nanotechnology</h3>
+					<h3 class="text-muted">Rutgers, Institute for Advanced Materials, Devices, and Nanotechnology</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<p class="text-muted">I did this design for the team at IAMDN.  I was responsible for the layout, design, and development of this site.  Images were provided by IAMDN.</p>
+					<h4 class="text-muted">I did this design for the team at IAMDN.  I was responsible for the layout, design, and development of this site.  Images were provided by IAMDN.</h4>
 					<p>&nbsp</p>
 					<p><a href="http://iamdn.rutgers.edu" target="blank">/portfolio/iamdn</a></p>
 				</div>

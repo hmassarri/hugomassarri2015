@@ -27,7 +27,7 @@
 				<div class="col-md-12">
 					<p>&nbsp;</p>
 					<h1>Chemistry Building for the Future</h1>
-					<h3 class="text-muted">Rutgers School of Arts and Sciences</h3>
+					<h3 class="text-muted">Rutgers, School of Arts and Sciences</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<p class="text-muted">I was asked to create the new look for the Chemistry Building at Rutgers University.  I was responsible for the design, development, and user experience.</p>
+					<h4 class="text-muted">I was asked to create the new look for the Chemistry Building at Rutgers University.  I was responsible for the design, development, and user experience.</h4>
 					<p>&nbsp</p>
 					<p><a href="http://chembuilding.rutgers.edu">/portfolio/chembuilding</a></p>
 				</div>

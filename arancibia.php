@@ -26,8 +26,8 @@
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>WRAM 2013</h1>
-					<h3 class="text-muted">RC Model Air Show</h3>
+					<h1>Ariana Arancibia</h1>
+					<h3 class="text-muted">Artist / Photographer</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design, Brand, & Development</h3>
-					<p class="text-muted">While working at Juma, I attended the WRAM 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</p>
+					<h4 class="text-muted"></h4>
 					<p>&nbsp</p>
 					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
 				</div>

@@ -27,7 +27,7 @@
 				<div class="col-md-12">
 					<p>&nbsp;</p>
 					<h1>IRW</h1>
-					<h3 class="text-muted">Institute for Research on Women</h3>
+					<h3 class="text-muted">Rutgers, Institute for Research on Women</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<p class="text-muted">I was responsible for the layout, design, and development for this site.</p>
+					<h4 class="text-muted">I was responsible for the layout, design, and development for this site.</h4>
 					<p>&nbsp</p>
 					<p><a href="http://irw.rutgers.edu">/portfolio/irw</a></p>
 				</div>
