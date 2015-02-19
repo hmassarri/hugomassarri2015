@@ -42,33 +42,41 @@
 					        <li data-target="#myCarousel" data-slide-to="1"></li>
 					        <li data-target="#myCarousel" data-slide-to="2"></li>
 					        <li data-target="#myCarousel" data-slide-to="3"></li>
+					        <li data-target="#myCarousel" data-slide-to="4"></li>
 					    </ol>
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item lightbox hide fade">
-					            <a class="media" href="images/slide1.png"><img src="images/slide1.png"></a>
+					            <a class="media" href="images/que_olor.png"><img src="images/que_olor.png"></a>
 								<div class="carousel-caption img-responsive">
 									<h3></h3>
 								<p></p>
 					            </div>
 					        </div>
 					        <div class="item">
-					            <a class="media" href="images/slide2.png"><img src="images/slide2.png" /></a>
+					            <a class="media" href="images/electrohouse.png"><img src="images/electrohouse.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
-					            <a class="media" href="images/slide3.png"><img src="images/slide3.png" /></a>
+					            <a class="media" href="images/catforce.png"><img src="images/catforce.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
 					            </div>
 					        </div>
 					        <div class="item">
-					            <a class="media" href="images/slide4.png"><img src="images/slide4.png" /></a>
+					            <a class="media" href="images/drum_bass.png"><img src="images/drum_bass.png" /></a>
+					            <div class="carousel-caption img-responsive">
+					              <h3></h3>
+					              <p></p>
+					            </div>
+					        </div>
+					        <div class="item">
+					            <a class="media" href="images/spacescapes.png"><img src="images/spacescapes.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
