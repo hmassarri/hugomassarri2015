@@ -18,7 +18,6 @@
 					<a href="showmay.php" target="_blank">Show-May Heimbuch</a>
 					<a href="valentine.php">DJ Victor Valentine</a>
 					<a href="unidentified.php">theUNIDENTIFED</a>
-					<a href="arancibia.php" target="_blank">Arianna Arancibia</a>
 					<a href="decadence.php" target="_blank">Decadence Hair Design</a>
 				</nav>
 			</div>

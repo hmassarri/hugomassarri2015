@@ -36,39 +36,18 @@
 			<div id="projectContainerRow" class="row rowFix">
 				<div id="mainContent" class="col-md-8">
 					<div id="myCarousel" class="carousel fade" data-interval="7000" data-ride="carousel" style="margin-top: 0px;">
-						<!-- Carousel indicators -->
+						<!-- Carousel indicators
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					        <li data-target="#myCarousel" data-slide-to="1"></li>
 					        <li data-target="#myCarousel" data-slide-to="2"></li>
 					        <li data-target="#myCarousel" data-slide-to="3"></li>
-					    </ol>
+					    </ol>-->
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <img src="images/slide1.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide2.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide3.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide4.png" />
+					            <a href="http://www.hugomassarri.com/portfolio/jumacreative/" target="_blank"><img src="images/juma.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -83,7 +62,7 @@
 					<h3 class="text-left">Design, Brand, & Development</h3>
 					<h4 class="text-muted">I was approached to co-found a design studio in Somerville, NJ.  I decided to pursue and see what would happen.  It turned out that not only did I hone my skills as designer and developer, It was an awesome experience and I look forward to doing it again.  Much respect to the original members of JUMA.  I hope to work with them again in the future.</h4>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/jumacreative/">/portfolio/jumacreative</a></p>
+					<p><a href="http://www.hugomassarri.com/portfolio/jumacreative/" target="_blank">/portfolio/jumacreative</a></p>
 				</div>
 			</div>
 

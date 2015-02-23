@@ -35,7 +35,6 @@
 	    'showmay.php',
 	    'valentine.php',
 	    'unidentified.php',
-	    'arancibia.php',
 	    'decadence.php'
 		];
 

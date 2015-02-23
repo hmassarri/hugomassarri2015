@@ -36,39 +36,18 @@
 			<div id="projectContainerRow" class="row rowFix">
 				<div id="mainContent" class="col-md-8">
 					<div id="myCarousel" class="carousel fade" data-interval="7000" data-ride="carousel" style="margin-top: 0px;">
-						<!-- Carousel indicators -->
+						<!-- Carousel indicators
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					        <li data-target="#myCarousel" data-slide-to="1"></li>
 					        <li data-target="#myCarousel" data-slide-to="2"></li>
 					        <li data-target="#myCarousel" data-slide-to="3"></li>
-					    </ol>
+					    </ol>-->
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <img src="images/slide1.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide2.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide3.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide4.png" />
+					            <a href="http://irw.rutgers.edu" target="_blank"><img src="images/irw.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>

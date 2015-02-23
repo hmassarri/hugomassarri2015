@@ -39,36 +39,12 @@
 						<!-- Carousel indicators -->
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					        <li data-target="#myCarousel" data-slide-to="1"></li>
-					        <li data-target="#myCarousel" data-slide-to="2"></li>
-					        <li data-target="#myCarousel" data-slide-to="3"></li>
 					    </ol>
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <img src="images/slide1.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide2.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide3.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide4.png" />
+					            <a href="http://chembuilding.rutgers.edu" target="_blank"><img src="images/chem.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>

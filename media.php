@@ -35,7 +35,7 @@
 
 			<div id="projectContainerRow" class="row rowFix">
 				<div id="mainContent" class="col-md-8">
-					<div id="myCarousel" class="carousel fade" data-interval="7000" data-ride="carousel" style="margin-top: 0px;">
+					<div id="myCarousel" class="carousel fade" data-interval="8000" data-ride="carousel" style="margin-top: 0px;">
 						<!-- Carousel indicators -->
 					    <ol class="carousel-indicators">
 					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -43,6 +43,9 @@
 					        <li data-target="#myCarousel" data-slide-to="2"></li>
 					        <li data-target="#myCarousel" data-slide-to="3"></li>
 					        <li data-target="#myCarousel" data-slide-to="4"></li>
+					        <li data-target="#myCarousel" data-slide-to="5"></li>
+					        <li data-target="#myCarousel" data-slide-to="6"></li>
+					        <li data-target="#myCarousel" data-slide-to="7"></li>
 					    </ol>
 
 					   <!-- Carousel items -->
@@ -77,6 +80,30 @@
 					        </div>
 					        <div class="item">
 					            <a class="media" href="images/spacescapes.png"><img src="images/spacescapes.png" /></a>
+					            <div class="carousel-caption img-responsive">
+					              <h3></h3>
+					              <p></p>
+					            </div>
+					        </div>
+
+					        <div class="item">
+					            <a class="media" href="images/banner3.png"><img src="images/banner3.png" /></a>
+					            <div class="carousel-caption img-responsive">
+					              <h3></h3>
+					              <p></p>
+					            </div>
+					        </div>
+
+					        <div class="item">
+					            <a class="media" href="images/banner4.png"><img src="images/banner4.png" /></a>
+					            <div class="carousel-caption img-responsive">
+					              <h3></h3>
+					              <p></p>
+					            </div>
+					        </div>
+
+					        <div class="item">
+					            <a class="media" href="images/banner6.png"><img src="images/banner6.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>

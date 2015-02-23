@@ -47,28 +47,7 @@
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <img src="images/slide1.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide2.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide3.png" />
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img src="images/slide4.png" />
+					            <a href="http://www.hugomassarri.com/portfolio/decadencehairdesign/" target="_blank"><img src="images/decadence.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -83,7 +62,7 @@
 					<h3 class="text-left">Design, Brand, & Development</h3>
 					<h4 class="text-muted"></h4>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/wram2013/">/portfolio/wram2013</a></p>
+					<p><a href="http://www.hugomassarri.com/portfolio/decadencehairdesign/" target="_blank">/portfolio/decadencehairdesign</a></p>
 				</div>
 			</div>
 
