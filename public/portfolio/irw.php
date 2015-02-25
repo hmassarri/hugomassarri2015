@@ -37,7 +37,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<h4 class="text-muted">I was responsible for the layout, design, and development for this site.</h4>
+					<p class="text-muted">I was responsible for the layout, design, and development for this site.</p>
 					<p>&nbsp</p>
 					<p><a href="http://irw.rutgers.edu">/portfolio/irw</a></p>
 				</div>

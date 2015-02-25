@@ -37,7 +37,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<h4 class="text-muted">I was responsible for the layout, design, development, and user experience.</h4>
+					<p class="text-muted">I was responsible for the layout, design, development, and user experience.</p>
 					<p>&nbsp</p>
 					<p><a href="http://convocation.sas.rutgers.edu" target="_blank">/portfolio/convocation</a></p>
 				</div>

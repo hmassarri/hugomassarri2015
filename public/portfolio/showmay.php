@@ -37,7 +37,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design, Brand, & Development</h3>
-					<h4 class="text-muted"></h4>
+					<p class="text-muted"></p>
 					<p>&nbsp</p>
 					<p><a href="http://showmay.heimbuchassoc.com/" target="_blank">/portfolio/show-may</a></p>
 				</div>

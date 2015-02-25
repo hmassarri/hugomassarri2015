@@ -1,4 +1,9 @@
-<?php 	$basePath = "/hugomassarri2015/";
+<?php
+		//Local
+		//$basePath = "/hugomassarri2015/";
+
+		//Production
+		$basePath = 'http://www.hugomassarri.com/';
 		$publicPath = $basePath . "public/";
 		$menuPath = $basePath . "public/menu.php";
 		$portfolioPath = $publicPath . "portfolio/";
@@ -35,7 +40,7 @@
 		<div class="container">
 
 
-			<?php include $_SERVER['DOCUMENT_ROOT'] . $menuPath; ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/menu.php'; ?>
 
 
 			<div class="row headFix">

@@ -35,7 +35,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Design & Development</h3>
-					<h4 class="text-muted">I was asked to create the new look for the Chemistry Building at Rutgers University.  I was responsible for the design, development, and user experience.</h4>
+					<p class="text-muted">I was asked to create the new look for the Chemistry Building at Rutgers University.  I was responsible for the design, development, and user experience.</p>
 					<p>&nbsp</p>
 					<p><a href="http://chembuilding.rutgers.edu">/portfolio/chembuilding</a></p>
 				</div>

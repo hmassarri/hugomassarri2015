@@ -92,7 +92,7 @@
 
 				<div id="projectDesc" class="col-md-4">
 					<h3 class="text-left">Visual Design</h3>
-					<h4 class="text-muted">Mostly a collection of my work from 2000-2015.  PS, IL, and really good stories were responsible for these.</h4>
+					<p class="text-muted">Mostly a collection of my work from 2000-2015.  PS, IL, and really good stories were responsible for these.</p>
 					<p>&nbsp</p>
 					<p><a href="<?php echo $publicPath; ?>"></a></p>
 				</div>
