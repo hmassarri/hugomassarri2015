@@ -1,33 +1,10 @@
-<?php include 'head.php'; ?>
-
-	<body class="sidebar-push">
-
-
-		<div class="container">
-
-
-			<?php include 'menu.php'; ?>
-
-
-			<div class="row rowFix">
-				<div id="brandlogo" class="col-md-6 pull-left">
-					<img src="images/brandlogo.png" class="img-responsive" />
-				</div>
-				<div id="menuButtonContainer" class="col-md-6 pull-right">
-					<p class="text-right">
-						<button type="button" id="showSidebar" class="menuButton">
-							<a href="#">Menu</a>
-						</button>
-					</p>
-				</div>
-			</div>
-
+<?php include '../../assets/head.php'; ?>
 
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>Show-May Heimbuch</h1>
-					<h3 class="text-muted">Accountant / Controller</h3>
+					<h1>WRAM 2013</h1>
+					<h3 class="text-muted">RC Model Air Show</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -47,7 +24,7 @@
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <a href="http://showmay.heimbuchassoc.com/" target="_blank"><img src="images/showmay.png" /></a>
+					            <a href="http://www.hugomassarri.com/portfolio/wram2013/" target="_blank"><img src="<?php echo $publicPath; ?>images/wram.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -59,18 +36,16 @@
 
 
 				<div id="projectDesc" class="col-md-4">
-					<h3 class="text-left">Design, Brand, & Development</h3>
-					<h4 class="text-muted"></h4>
+					<h3 class="text-left">Design & Development</h3>
+					<h4 class="text-muted">While working at Juma, I attended the WRAM 2013 RC Model Air Show and decided to document it.  I was responsible for the user experience, visual design and development of the site.  Photos by J.Mejia-Juarez and HugoM.</h4>
 					<p>&nbsp</p>
-					<p><a href="http://showmay.heimbuchassoc.com/" target="_blank">/portfolio/show-may</a></p>
+					<p><a href="http://www.hugomassarri.com/public/portfolio/wram2013/" target="_blank">/portfolio/wram2013</a></p>
 				</div>
 			</div>
 
 
-			<?php include 'projectControls.php'; ?>
-
-
-		</div><!-- END CONTAINER -->
-		<?php include 'controller.php'; ?>
-	</body>
-</html>
+			<?php
+				include '../../controller/projectControls.php';
+				include '../../controller/controller.php';
+				include '../../assets/footer.php';
+			?>

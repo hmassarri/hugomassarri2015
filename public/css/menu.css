@@ -1,3 +1,46 @@
+/* =Menu Button
+--------------------------*/
+.menuButton {
+	border: none;
+	background: #FFFFFF;
+	color: #777777;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	max-width: 75px;
+	cursor: pointer;
+	margin: 0;
+	font-size: 18px;
+	float: right;
+}
+
+.menuButton a {
+	color: #777777;
+}
+.menuButton:hover a, .menuButton:focus a{
+	color: #FFFFFF;
+}
+.menuButton:hover, .menuButton:focus {
+	background: #000000;
+}
+
+.menuButton.active {
+	background: #333333;
+}
+
+.menuButton.disabled, .menuButton.disabled a {
+	background: #F0F0F0;
+	pointer-events: none;
+}
+
+.menuButton h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	font-weight: 200;
+}
+
+
 /* =Nav (Right Menu)
 /*--------------------*/
 .sidebar {
@@ -8,16 +51,16 @@
 	z-index: 1000;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	background: #F1F1F1;
+	background: #FFFFFF;
 
 }
 
 .sidebar a {
-	border-bottom: 1px solid #F9F9F9;
+	border-bottom: 0px solid #F9F9F9;
 	padding: 20px;
 	display: block;
 	color: #333333;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -33,7 +76,7 @@
 
 .sidebar h3 {
 	color: #FFFFFF;
-	font-size: 1.9em;
+	font-size: 20px;
 	padding: 20px;
 	margin: 0;
 	font-weight: 300;
@@ -76,8 +119,8 @@
 	width: 100%;
 	max-width: 80px;
 	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 16px;
+	padding-bottom: 7px;
 	border: none;
 	background: #CD1234;
 	color: #fff;

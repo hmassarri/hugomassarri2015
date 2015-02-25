@@ -1,27 +1,4 @@
-<?php include 'head.php'; ?>
-
-	<body class="sidebar-push">
-
-
-		<div class="container">
-
-
-			<?php include 'menu.php'; ?>
-
-
-			<div class="row rowFix">
-				<div id="brandlogo" class="col-md-6 pull-left">
-					<img src="images/brandlogo.png" class="img-responsive" />
-				</div>
-				<div id="menuButtonContainer" class="col-md-6 pull-right">
-					<p class="text-right">
-						<button type="button" id="showSidebar" class="menuButton">
-							<a href="#">Menu</a>
-						</button>
-					</p>
-				</div>
-			</div>
-
+<?php include '../../assets/head.php'; ?>
 
 			<div class="row rowFix">
 				<div class="col-md-12">
@@ -47,7 +24,7 @@
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <a href="http://www.hugomassarri.com/portfolio/jumacreative/" target="_blank"><img src="images/juma.png" /></a>
+					            <a href="http://www.hugomassarri.com/portfolio/jumacreative/" target="_blank"><img src="<?php echo $publicPath; ?>images/juma.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -67,10 +44,8 @@
 			</div>
 
 
-			<?php include 'projectControls.php'; ?>
-
-
-		</div><!-- END CONTAINER -->
-		<?php include 'controller.php'; ?>
-	</body>
-</html>
+			<?php
+				include '../../controller/projectControls.php';
+				include '../../controller/controller.php';
+				include '../../assets/footer.php';
+			?>

@@ -1,3 +1,16 @@
+<?php
+	function head() {
+		include '../assets/head.php';
+	}
+
+	function footer() {
+		include '../assets/footer.php';
+	}
+	function menu() {
+		include '../public/menu.php';
+	}
+?>
+
 <script>
 	//Lets rock
 	$(document).ready(function() {
@@ -40,6 +53,7 @@
 
 		// get current page: just last part - page name and extension
 	    current = $(location).attr('pathname').substr($(location).attr('pathname').lastIndexOf("/") + 1);
+
 
 		//remove prevButton if at the beginning of project list
 		if (current == 'convocation.php')

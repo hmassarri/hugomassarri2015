@@ -1,47 +1,3 @@
-/* =Menu Button
---------------------------*/
-.menuButton {
-	border: none;
-	background: #F0F0F0;
-	color: #777777;
-	padding: 15px;
-	display: block;
-	width: 100%;
-	max-width: 75px;
-	cursor: pointer;
-	margin: 0;
-	font-size: 20px;
-	float: right;
-}
-
-.menuButton a {
-	color: #777777;
-}
-.menuButton:hover a, .menuButton:focus a{
-	color: #FFFFFF;
-}
-.menuButton:hover, .menuButton:focus {
-	background: #000000;
-}
-
-.menuButton.active {
-	background: #333333;
-}
-
-.menuButton.disabled, .menuButton.disabled a {
-	background: #F0F0F0;
-	pointer-events: none;
-}
-
-.menuButton h2 {
-	margin: 0;
-	padding: 0;
-	font-size: 28px;
-	font-weight: 0;
-}
-
-
-
 /* =Project Button
 --------------------------*/
 .projectButton {
@@ -69,17 +25,24 @@
 
 /* =Header
 --------------------------*/
+.headFix {
+	margin: 0px 0px 40px 0px !important;
+	/* Debugging - Remove when done
+	background: #FF0000; */
+}
+
 .rowFix {
-	margin: 0px 0px 50px 0px !important;
+	margin: 0px 0px 20px 0px !important;
 	/* Debugging - Remove when done
 	background: #FF0000; */
 }
 #projectContainerRow {
-	/* margin-top: 50px !important; */
+	/* margin-top: 50px !important;
+	background: #FF0000; */
 }
 #projectButtonRow {
-	margin-top: 100px !important;
-	margin-bottom: 50px !important;
+	margin-top: 40px !important;
+	margin-bottom: 20px !important;
 
 	/* Debugging - Remove when done
 	background: #FF0000; */

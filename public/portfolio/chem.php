@@ -1,26 +1,4 @@
-<?php include 'head.php'; ?>
-
-	<body class="sidebar-push">
-
-
-		<div class="container">
-
-
-			<?php include 'menu.php'; ?>
-
-
-			<div class="row rowFix">
-				<div id="brandlogo" class="col-md-6 pull-left">
-					<img src="images/brandlogo.png" class="img-responsive" />
-				</div>
-				<div id="menuButtonContainer" class="col-md-6 pull-right">
-					<p class="text-right">
-						<button type="button" id="showSidebar" class="menuButton">
-							<a href="#">Menu</a>
-						</button>
-					</p>
-				</div>
-			</div>
+<?php	include '../../assets/head.php';	?>
 
 
 			<div class="row rowFix">
@@ -44,7 +22,7 @@
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <a href="http://chembuilding.rutgers.edu" target="_blank"><img src="images/chem.png" /></a>
+					            <a href="http://chembuilding.rutgers.edu" target="_blank"><img src="<?php echo $publicPath . 'images/chem.png'; ?>" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -64,10 +42,8 @@
 			</div>
 
 
-			<?php include 'projectControls.php'; ?>
-
-
-		</div><!-- END CONTAINER -->
-		<?php include 'controller.php'; ?>
-	</body>
-</html>
+			<?php
+				include '../../controller/projectControls.php';
+				include '../../assets/footer.php';
+				include '../../controller/controller.php';
+			?>

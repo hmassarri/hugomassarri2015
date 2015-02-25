@@ -1,33 +1,10 @@
-<?php include 'head.php'; ?>
-
-	<body class="sidebar-push">
-
-
-		<div class="container">
-
-
-			<?php include 'menu.php'; ?>
-
-
-			<div class="row rowFix">
-				<div id="brandlogo" class="col-md-6 pull-left">
-					<img src="images/brandlogo.png" class="img-responsive" />
-				</div>
-				<div id="menuButtonContainer" class="col-md-6 pull-right">
-					<p class="text-right">
-						<button type="button" id="showSidebar" class="menuButton">
-							<a href="#">Menu</a>
-						</button>
-					</p>
-				</div>
-			</div>
-
+<?php include '../../assets/head.php'; ?>
 
 			<div class="row rowFix">
 				<div class="col-md-12">
 					<p>&nbsp;</p>
-					<h1>the UNIDENTIFIED.</h1>
-					<h3 class="text-muted">Surf / Sci-Fi / Punk </h3>
+					<h1>Show-May Heimbuch</h1>
+					<h3 class="text-muted">Accountant / Controller</h3>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -47,7 +24,7 @@
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
 					        <div class="active item">
-					            <a href="http://www.hugomassarri.com/portfolio/theunidentified/" target="_blank"><img src="images/theunidentified.png" /></a>
+					            <a href="http://showmay.heimbuchassoc.com/" target="_blank"><img src="<?php echo $publicPath; ?>images/showmay.png" /></a>
 					            <div class="carousel-caption img-responsive">
 					              <h3></h3>
 					              <p></p>
@@ -62,15 +39,13 @@
 					<h3 class="text-left">Design, Brand, & Development</h3>
 					<h4 class="text-muted"></h4>
 					<p>&nbsp</p>
-					<p><a href="http://www.hugomassarri.com/portfolio/theunidentified/">/portfolio/theunidentified</a></p>
+					<p><a href="http://showmay.heimbuchassoc.com/" target="_blank">/portfolio/show-may</a></p>
 				</div>
 			</div>
 
 
-			<?php include 'projectControls.php'; ?>
-
-
-		</div><!-- END CONTAINER -->
-		<?php include 'controller.php'; ?>
-	</body>
-</html>
+			<?php
+				include '../../controller/projectControls.php';
+				include '../../controller/controller.php';
+				include '../../assets/footer.php';
+			?>
