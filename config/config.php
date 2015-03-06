@@ -10,10 +10,10 @@
 	$dbName = 'hugo2015';
 
 	/* Production DB Connection Settings */
-	$dbHostProd = 'mysql406.ixwebhosting.com';
-	$dbUserProd = 'hmassar_admin';
-	$dbPassProd = 'Password1!';
-	$dbNameProd = 'hmassar_musicDB_Production';
+	$dbHostProd = '';
+	$dbUserProd = '';
+	$dbPassProd = '';
+	$dbNameProd = '';
 
 
 	/* If myENV is set to Prod, use the Production connection settings, otherwise, default to localhost */
