@@ -1,4 +1,4 @@
-<?php include '../../assets/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/hugomassarri2015/assets/head.php'; ?>
 
 
 			<div class="row rowFix">
@@ -26,66 +26,9 @@
 
 					   <!-- Carousel items -->
 					    <div class="carousel-inner">
-					        <div class="active item lightbox hide fade">
-					            <a class="media" href="<?php echo $publicPath; ?>images/que_olor.png"><img src="<?php echo $publicPath; ?>images/que_olor.png"></a>
-								<div class="carousel-caption img-responsive">
-									<h3></h3>
-								<p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/electrohouse.png"><img src="<?php echo $publicPath; ?>images/electrohouse.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/catforce.png"><img src="<?php echo $publicPath; ?>images/catforce.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/drum_bass.png"><img src="<?php echo $publicPath; ?>images/drum_bass.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/spacescapes.png"><img src="<?php echo $publicPath; ?>images/spacescapes.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
+						    <?php get_img(); ?>
+					    </div>
 
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/banner3.png"><img src="<?php echo $publicPath; ?>images/banner3.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/banner4.png"><img src="<?php echo $publicPath; ?>images/banner4.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <a class="media" href="<?php echo $publicPath; ?>images/banner6.png"><img src="<?php echo $publicPath; ?>images/banner6.png" /></a>
-					            <div class="carousel-caption img-responsive">
-					              <h3></h3>
-					              <p></p>
-					            </div>
-					        </div>
-				    	</div>
 					</div>
 				</div>
 
@@ -100,6 +43,6 @@
 
 
 			<?php
-				include '../../controller/controller.php';
+				include $_SERVER['DOCUMENT_ROOT'] . '/hugomassarri2015/public/lib/custom.js';
 				include '../../assets/footer.php';
 			?>

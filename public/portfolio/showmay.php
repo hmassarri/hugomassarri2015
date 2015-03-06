@@ -1,4 +1,7 @@
-<?php include '../../assets/head.php'; ?>
+<?php
+	include '../../assets/head.php';
+	include '../lib/custom.js';
+?>
 
 			<div class="row rowFix">
 				<div class="col-md-12">
@@ -46,6 +49,9 @@
 
 			<?php
 				include '../../controller/projectControls.php';
-				include '../../controller/controller.php';
+				
+	include '../../assets/head.php';
+	include '../lib/custom.js';
+?>
 				include '../../assets/footer.php';
 			?>

@@ -31,6 +31,7 @@
 		<script src="<?php echo $publicPath; ?>lib/bootstrap.js"></script>
 		<script src="<?php echo $publicPath; ?>lib/modernizr.custom.js"></script>
 		<script src="<?php echo $publicPath; ?>lib/jquery.magnific-popup.js"></script>
+		<script src="<?php echo $publicPath; ?>lib/custom.js"></script>
 	</head>
 
 	<body class="sidebar-push">
